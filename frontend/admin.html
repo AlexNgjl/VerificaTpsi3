@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<title>Admin Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Vista Admin</h1>
+
+<h2>Aggiungi Prodotto</h2>
+
+<input id="name" placeholder="Nome prodotto">
+<input id="price" type="number" placeholder="Prezzo">
+<input id="stock" type="number" placeholder="Stock">
+
+<button onclick="addProduct()">Aggiungi</button>
+
+<h2>Bonus Crediti Utente</h2>
+
+<select id="userBonus"></select>
+
+<input id="bonus" type="number" placeholder="Crediti bonus">
+
+<button onclick="giveBonus()">Assegna Bonus</button>
+
+<h2>Gestione Stock</h2>
+
+<div id="adminProducts"></div>
+
+<p id="adminMessage"></p>
+
+<script src="admin.js"></script>
+
+</body>
+</html>
