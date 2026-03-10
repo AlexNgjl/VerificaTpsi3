@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # E-Commerce Distribuito
 
 ## Descrizione
@@ -240,3 +241,6 @@ INSERIRE_URL_RENDER
 Frontend:
 
 eseguito localmente
+=======
+# VerificaTpsi3
+>>>>>>> 3a4a0193281c2b4a1fbc3e3c33779d6b944473f6
